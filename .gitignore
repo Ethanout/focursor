@@ -1,0 +1,59 @@
+# OBS Studio
+*.log
+obs-studio/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build artifacts
+build/
+dist/
+*.exe
+*.dll
+
+# Temporary files
+*.tmp
+*.bak
+
+# Screenshots and recordings
+screenshots/
+recordings/
+
+# Personal config
+config.json
+settings.json
+
+# Development tools (not for end users)
+sync_to_obs.py
+sync_to_obs.bat
+check-release.py
+dev-*.py
+dev-*.bat
+dev-*.md
+*.dev
+*.development
+
+# Testing and debug files
+debug.log
+test-*.lua
+benchmark-*.lua
+
+# Personal config
+config.json
+settings.json

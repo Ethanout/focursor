@@ -1,0 +1,22 @@
+# Focursor OBS Script Project
+# This file identifies this as an OBS Studio frontend-tools script project
+
+name = "Focursor"
+version = "1.0.0"
+description = "Enhanced OBS zoom-to-mouse script with smooth cursor and advanced features"
+author = "Your Name"
+license = "Apache-2.0"
+
+# Script files
+scripts = [
+    "focursor.lua"
+]
+
+# Dependencies (none required)
+dependencies = []
+
+# Supported platforms
+platforms = ["windows"]
+
+# OBS Studio version requirements
+obs_min_version = "28.0.0"

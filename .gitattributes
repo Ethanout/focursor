@@ -1,0 +1,21 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Lua scripts
+*.lua text eol=lf
+
+# Python scripts
+*.py text eol=lf
+
+# Batch scripts (Windows line endings)
+*.bat text eol=crlf
+
+# Markdown files
+*.md text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.gif binary
+*.cur binary
+*.ico binary
