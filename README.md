@@ -61,7 +61,23 @@ If you want to use a custom mouse cursor, you can set it in the plugin options
 
 ## 📄 License
 
+
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+
+## 🖼️ Icon License
+
+The included cursor icon (e.g., icons/cursor.png) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), source: https://icon-icons.com/icon/cursor-the-application/2337
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to submit Issues and Pull Requests.
+
+## 📞 Support
+
+If you encounter any problems while using this script:
+1. Check the OBS script log
+2. Submit a detailed Issue description
+3. Provide your OBS version and system information
 
 ---
 
@@ -125,7 +141,12 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 
 ### 📄 许可证
 
+
 本项目采用 Apache License 2.0 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
+
+### 🖼️ 图标版权
+
+本项目内置的光标图标（如 icons/cursor.png）采用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议，出处：https://icon-icons.com/icon/cursor-the-application/2337
 
 ## 🤝 贡献
 
