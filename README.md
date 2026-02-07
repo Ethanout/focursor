@@ -44,18 +44,20 @@ If you want to use a custom mouse cursor, you can set it in the plugin options
 
 ## 🎮 Usage
 
-1. **Basic Usage**:
+1. **Install the OBS Script Plugin**:
+   - In OBS, go to Tools -> Scripts -> "+" to add focursor.lua
+
+2. **Basic Usage**:
    - Set the zoom target source (leave blank to auto-select the first window/display capture)
    - Configure the mouse source name and icon path
    - Click "Enable Smooth Mouse" (if no matching source is found, it will be created automatically)
 
-2. **Hotkey Settings**:
+3. **Hotkey Settings**:
    - Add hotkeys for the script in OBS settings
    - Supports toggling zoom state
 
-3. **Advanced Configuration**:
+4. **Advanced Configuration**:
    - Adjust animation parameters for the best experience
-   - Configure multi-monitor support parameters
 
 ## 📄 License
 
@@ -106,18 +108,20 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 
 ### 🎮 使用方法
 
-1. **基本使用**：
+1. **安装 OBS 插件**：
+   - 在 OBS 顶部菜单选择 工具 -> 脚本 -> “+” 添加 focursor.lua
+
+2. **基本使用**：
    - 设置缩放目标源（留空自动选择第一个窗口/显示器采集）
    - 配置鼠标源名称和图标路径
    - 点击"启用平滑鼠标"（如果找不到匹配源会自动创建）
 
-2. **快捷键设置**：
+3. **快捷键设置**：
    - 在 OBS 设置中为脚本添加热键
    - 支持切换缩放状态
 
-3. **高级配置**：
+4. **高级配置**：
    - 调整动画参数以获得最佳体验
-   - 配置多显示器支持参数
 
 ### 📄 许可证
 
