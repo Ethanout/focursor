@@ -66,8 +66,7 @@ If you want to use the bundled icons, copy the files from the `icons/` folder in
 
 This project is licensed under the Apache License 2.0 — see the [LICENSE](LICENSE) file for details.
 
-The included cursor icon (`icons/cursor.png`) is licensed under CC BY 4.0. Source: https://icon-icons.com/icon/cursor-the-application/2337
-The included icons are unmodified from the original source.
+The included cursor icon (`icons/cursor.png`) is licensed under CC BY 4.0, which are unmodified from the original source. Source: https://icon-icons.com/icon/cursor-the-application/2337.
 
 ## 🤝 Contributing
 
@@ -149,9 +148,7 @@ If you encounter problems:
 
 本项目代码采用 Apache License 2.0，详见 [LICENSE](LICENSE)。
 
-项目中包含的光标图标（`icons/cursor.png`）采用 CC BY 4.0 协议，出处： https://icon-icons.com/icon/cursor-the-application/2337
-图标为原始来源的未修改版本。
-
+项目中包含的光标图标（`icons/cursor.png`）采用 CC BY 4.0 协议，为原始出处的未修改版本。出处： https://icon-icons.com/icon/cursor-the-application/2337。
 ## 🤝 贡献
 
 欢迎贡献：请提交 Issue 或 Pull Request，并附带复现步骤。
