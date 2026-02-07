@@ -21,6 +21,15 @@ An enhanced OBS script plugin inspired by [obs-zoom-to-mouse](https://github.com
 - **Smooth Mouse Follow**: Configurable mouse smoothness and zoom follow
 - **Click Feedback**: Zoom animation on mouse click
 
+
+## ⚠️ Known Issues
+
+- When exiting OBS while in zoom-in state, the plugin may stop working properly. To fix this, uninstall the plugin and remove the related sources from your scene, then reinstall.
+
+## 🚧 Notice
+
+This script is in the testing phase and may cause issues or damage to your OBS scenes. Please use with caution!
+
 ## 📦 Installation
 
 1. Download the `focursor.lua` file
@@ -54,6 +63,7 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 
 ---
 
+
 ## 中文说明
 
 一个基于 [obs-zoom-to-mouse](https://github.com/BlankSourceCode/obs-zoom-to-mouse) 的增强版 OBS 脚本插件，提供平滑的鼠标指针缩放和跟随功能。
@@ -73,6 +83,14 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 #### 🎨 视觉效果
 - **平滑鼠标跟随**：可配置的鼠标平滑度和缩放跟随
 - **点击反馈**：鼠标点击时的缩放动画
+
+### ⚠️ 已知问题
+
+- 在放大（zoom-in）状态下退出 OBS 会导致插件无法正常运行，需要卸载插件并删除场景中的源再重新安装。
+
+### 🚧 注意
+
+本脚本处于测试阶段，可能会对你的场景造成破坏，请慎重使用！
 
 ### 📦 安装方法
 
