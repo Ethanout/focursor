@@ -3,7 +3,7 @@
 
 English | [中文](#中文说明)
 
-An enhanced OBS script plugin based on [obs-zoom-to-mouse](https://github.com/BlankSourceCode/obs-zoom-to-mouse), providing smooth mouse pointer zoom and follow features.
+An enhanced OBS script plugin inspired by [obs-zoom-to-mouse](https://github.com/BlankSourceCode/obs-zoom-to-mouse), providing smooth mouse pointer zoom and follow features.
 
 ## ✨ Main Features
 
