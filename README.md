@@ -5,6 +5,8 @@ English | [中文](#中文说明)
 
 An enhanced OBS script plugin inspired by [obs-zoom-to-mouse](https://github.com/BlankSourceCode/obs-zoom-to-mouse), providing smooth mouse pointer zoom and follow features.
 
+**Note: This plugin only supports the Windows platform.**
+
 ## ✨ Main Features
 
 ### 🎯 Core Functions
@@ -85,6 +87,8 @@ If you encounter any problems while using this script:
 ## 中文说明
 
 一个基于 [obs-zoom-to-mouse](https://github.com/BlankSourceCode/obs-zoom-to-mouse) 的增强版 OBS 脚本插件，提供平滑的鼠标指针缩放和跟随功能。
+
+**注意：本插件仅支持 Windows 平台。**
 
 ### ✨ 主要特性
 
