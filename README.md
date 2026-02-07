@@ -17,7 +17,8 @@ This script is in the testing phase and may make destructive changes to sources 
 
 ## ⚠️ Known Issues
 
-- Exiting OBS while the plugin is in a zoom-in state may break the plugin and damage your scenes. If this happens, uninstall the script, remove plugin-added sources and any plugin-modified sources (e.g. the zoomed window), then reinstall.
+- **Please be sure to disable Auto Zoom before exiting OBS.** Exiting OBS while the plugin is in a zoom-in state may break the plugin and damage your scenes. If this happens, uninstall the script, remove plugin-added sources and any plugin-modified sources (e.g. the zoomed window), then reinstall.
+
 
 ## 🖼️ Icon attribution
 
@@ -101,7 +102,7 @@ If you encounter problems:
 
 ### ⚠️ 已知问题
 
-- 在放大（zoom-in）状态下退出 OBS 可能导致插件和场景损坏。若发生此问题，请卸载脚本，删除插件添加的源及插件修改的源（例如被放大的窗口），然后重新安装。
+- **请在务必退出obs前关闭自动放大。**因为在放大（zoom-in）状态下退出 OBS 可能导致插件和场景损坏。若发生此问题，请卸载脚本，删除插件添加的源及插件修改的源（例如被放大的窗口），然后重新安装。
 
 ### 🖼️ 图标版权
 
