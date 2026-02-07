@@ -81,7 +81,7 @@ If you encounter problems:
 
 ---
 
-## 中文说明
+# 中文说明
 
 一个基于 [obs-zoom-to-mouse](https://github.com/BlankSourceCode/obs-zoom-to-mouse) 的增强版 OBS 脚本插件，提供平滑的鼠标指针缩放和跟随功能。
 
