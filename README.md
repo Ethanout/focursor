@@ -1,5 +1,4 @@
-
-# Focursor - OBS Smooth Mouse Zoom Plugin
+# Focursor — OBS Smooth Mouse Zoom Plugin
 
 English | [中文](#中文说明)
 
@@ -7,82 +6,82 @@ An enhanced OBS script plugin inspired by [obs-zoom-to-mouse](https://github.com
 
 **Note: This plugin only supports the Windows platform.**
 
-## ✨ Main Features
+## Quick overview
 
-### 🎯 Core Functions
-- **Smart Zoom Follow**: Automatically zooms the display area as the mouse moves
-- **Smooth Animation**: Supports various easing algorithms for zoom animations
-- **Hardware-accelerated Cursor**: Custom mouse cursor, supports click and drag animations
+- Platform: Windows only
+- Status: Testing / experimental
+- License: Apache-2.0 (code)
 
-### 🔧 Advanced Features
-- **Auto Zoom**: Configurable auto-zoom logic, supports click and long-press triggers
-- **Mode Matching**: Automatically matches zoom target sources by name prefix
-- **Scene Adaptation**: Automatically switches to the appropriate zoom source between scenes
-
-### 🎨 Visual Effects
-- **Smooth Mouse Follow**: Configurable mouse smoothness and zoom follow
-- **Click Feedback**: Zoom animation on mouse click
-
+## Note & Warning
+This script is in the testing phase and may make destructive changes to sources in your scenes, and may cause unexpected behavior. Please back up your OBS scene collection before use.
 
 ## ⚠️ Known Issues
 
-- When exiting OBS while in zoom-in state, the plugin may stop working properly. To fix this, uninstall the plugin and remove the related sources from your scene, then reinstall.
+- Exiting OBS while the plugin is in a zoom-in state may break the plugin and damage your scenes. If this happens, uninstall the script, remove plugin-added sources and any plugin-modified sources (e.g. the zoomed window), then reinstall.
 
-## 🚧 Notice
+## 🖼️ Icon attribution
 
-This script is in the testing phase and may cause issues or damage to your OBS scenes. Please use with caution!
+The included cursor icon (`icons/cursor.png`) is licensed under CC BY 4.0. Source: https://icon-icons.com/icon/cursor-the-application/2337
+
+## ✨ Main Features
+
+### 🎯 Core Functions
+- Smart Zoom Follow — automatically zooms the display area as the mouse moves
+- Smooth Animation — supports multiple easing algorithms for zoom
+- Custom Cursor — supports cursor images and click/drag visual feedback
+
+### 🔧 Advanced
+- Auto Zoom — configurable auto-zoom logic (click or long-press triggers)
+- Mode Matching — match zoom targets by name prefix
+- Scene Adaptation — switch zoom source between scenes automatically
 
 ## 📦 Installation
 
-1. Download the `focursor.lua` file
-2. Copy the file to the OBS scripts directory:
+1. Download `focursor.lua` from this repository
+2. Copy `focursor.lua` to your OBS scripts directory (optional):
    ```
    %APPDATA%\obs-studio\plugins\frontend-tools\scripts\
    ```
-3. Enable the script in OBS and configure the parameters
+3. In OBS add the script: Tools -> Scripts -> click "+" and select `focursor.lua`
+4. Configure the script parameters inside OBS
 
-### Optional: Copy Icon Files
-If you want to use a custom mouse cursor, you can set it in the plugin options
+### Optional: copy icon files
+If you want to use the bundled icons, copy the files from the `icons/` folder into a reachable location and set the path in the script options.
 
 ## 🎮 Usage
 
-1. **Install the OBS Script Plugin**:
-   - In OBS, go to Tools -> Scripts -> "+" to add focursor.lua
+1. Install the OBS Script Plugin
+   - In OBS: Tools -> Scripts -> "+" → add `focursor.lua`
 
-2. **Basic Usage**:
+2. Basic Usage
    - Set the zoom target source (leave blank to auto-select the first window/display capture)
    - Configure the mouse source name and icon path
    - Click "Enable Smooth Mouse" (if no matching source is found, it will be created automatically)
 
-3. **Hotkey Settings**:
-   - Add hotkeys for the script in OBS settings
-   - Supports toggling zoom state
+3. Hotkey Settings
+   - Add hotkeys for the script in OBS Settings → Hotkeys
+   - Use hotkeys to toggle zoom state or trigger actions
 
-4. **Advanced Configuration**:
-   - Adjust animation parameters for the best experience
+4. Advanced Configuration
+   - Adjust animation/easing parameters for smoother results
+   - Configure multi-monitor settings and source matching rules
 
 ## 📄 License
 
-
-This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
-
-## 🖼️ Icon License
-
-The included cursor icon (e.g., icons/cursor.png) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), source: https://icon-icons.com/icon/cursor-the-application/2337
+This project is licensed under the Apache License 2.0 — see the [LICENSE](LICENSE) file for details.
 
 ## 🤝 Contributing
 
-Contributions are welcome! Feel free to submit Issues and Pull Requests.
+Contributions are welcome. Please open Issues or Pull Requests with details and repro steps.
 
 ## 📞 Support
 
-If you encounter any problems while using this script:
-1. Check the OBS script log
-2. Submit a detailed Issue description
-3. Provide your OBS version and system information
+If you encounter problems:
+1. Check the OBS script log for errors
+2. Open an Issue with details (OBS version, OS, steps to reproduce)
+3. Attach logs and a minimal repro if possible
 
 ---
-
 
 ## 中文说明
 
@@ -90,75 +89,78 @@ If you encounter any problems while using this script:
 
 **注意：本插件仅支持 Windows 平台。**
 
-### ✨ 主要特性
+## 概要
 
-#### 🎯 核心功能
-- **智能缩放跟随**：鼠标移动时自动缩放显示区域
-- **平滑动画**：支持多种缓动算法的缩放动画
-- **硬件加速鼠标**：自定义鼠标图标，支持点击和拖拽动画
+- 平台：仅支持 Windows
+- 状态：测试 / 实验性
+- 代码许可：Apache-2.0
 
-#### 🔧 高级功能
-- **自动缩放**：可配置的自动放大逻辑，支持点击和长按触发
-- **模式匹配**：支持按名称前缀自动匹配缩放目标源
-- **场景自适应**：在不同场景间自动切换合适的缩放源
+## 注意与警告
 
-#### 🎨 视觉效果
-- **平滑鼠标跟随**：可配置的鼠标平滑度和缩放跟随
-- **点击反馈**：鼠标点击时的缩放动画
+本脚本处于测试阶段，可能会对场景中的源造成破坏性更改，并导致不可预期的行为。使用前请备份 OBS 场景集合。
 
 ### ⚠️ 已知问题
 
-- 在放大（zoom-in）状态下退出 OBS 会导致插件无法正常运行，需要卸载插件并删除场景中的源再重新安装。
+- 在放大（zoom-in）状态下退出 OBS 可能导致插件和场景损坏。若发生此问题，请卸载脚本，删除插件添加的源及插件修改的源（例如被放大的窗口），然后重新安装。
 
-### 🚧 注意
+### 🖼️ 图标版权
 
-本脚本处于测试阶段，可能会对你的场景造成破坏，请慎重使用！
+项目中包含的光标图标（`icons/cursor.png`）采用 CC BY 4.0 协议，出处： https://icon-icons.com/icon/cursor-the-application/2337
+
+### ✨ 主要特性
+
+#### 🎯 核心功能
+- 智能缩放跟随 — 鼠标移动时自动缩放显示区域
+- 平滑动画 — 支持多种缓动算法
+- 自定义光标 — 支持自定义光标图片及点击/拖拽反馈
+
+#### 🔧 高级功能
+- 自动缩放 — 可配置的自动放大逻辑（点击或长按触发）
+- 模式匹配 — 按名称前缀匹配缩放目标
+- 场景自适应 — 在场景间自动切换缩放源
 
 ### 📦 安装方法
 
 1. 下载 `focursor.lua` 文件
-2. 将文件复制到 OBS 脚本目录：
+2. 可将 `focursor.lua` 放入 OBS 脚本目录（可选）：
    ```
    %APPDATA%\obs-studio\plugins\frontend-tools\scripts\
    ```
-3. 在 OBS 中启用脚本并配置参数
+3. 在 OBS 中添加脚本：工具 -> 脚本 -> 点击 "+"，选择 `focursor.lua`
+4. 在脚本界面中配置参数
 
 #### 可选：复制图标文件
-如果您想使用自定义鼠标图标，可以在插件的选项中进行设置
+如果需要使用自带图标，请将 `icons/` 中的文件复制到可访问位置，并在脚本选项中设置路径。
 
 ### 🎮 使用方法
 
-1. **安装 OBS 插件**：
-   - 在 OBS 顶部菜单选择 工具 -> 脚本 -> “+” 添加 focursor.lua
+1. 安装 OBS 脚本插件
+   - 在 OBS 中：工具 -> 脚本 -> "+" → 添加 `focursor.lua`
 
-2. **基本使用**：
+2. 基本使用
    - 设置缩放目标源（留空自动选择第一个窗口/显示器采集）
    - 配置鼠标源名称和图标路径
-   - 点击"启用平滑鼠标"（如果找不到匹配源会自动创建）
+   - 点击“启用平滑鼠标”（若未找到匹配源会自动创建）
 
-3. **快捷键设置**：
-   - 在 OBS 设置中为脚本添加热键
-   - 支持切换缩放状态
+3. 快捷键设置
+   - 在 OBS 设置 → 快捷键 中为脚本添加热键
+   - 使用热键切换缩放或触发操作
 
-4. **高级配置**：
-   - 调整动画参数以获得最佳体验
+4. 高级配置
+   - 调整动画/缓动参数以获得更平滑的体验
+   - 配置多显示器和源匹配规则
 
 ### 📄 许可证
 
-
-本项目采用 Apache License 2.0 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
-
-### 🖼️ 图标版权
-
-本项目内置的光标图标（如 icons/cursor.png）采用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议，出处：https://icon-icons.com/icon/cursor-the-application/2337
+本项目代码采用 Apache License 2.0，详见 [LICENSE](LICENSE)
 
 ## 🤝 贡献
 
-欢迎提交 Issue 和 Pull Request！
+欢迎贡献：请提交 Issue 或 Pull Request，并附带复现步骤。
 
 ## 📞 支持
 
-如果您在使用过程中遇到问题，请：
-1. 检查 OBS 脚本日志
-2. 提交详细的 Issue 描述
-3. 提供您的 OBS 版本和系统信息
+如遇问题：
+1. 查看 OBS 脚本日志中的错误信息
+2. 提交 Issue，说明 OBS 版本、系统信息和复现步骤
+3. 尽量附上日志和最小复现示例
