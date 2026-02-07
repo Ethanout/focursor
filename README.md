@@ -19,11 +19,6 @@ This script is in the testing phase and may make destructive changes to sources 
 
 - **Please be sure to disable Auto Zoom before exiting OBS.** Exiting OBS while the plugin is in a zoom-in state may break the plugin and damage your scenes. If this happens, uninstall the script, remove plugin-added sources and any plugin-modified sources (e.g. the zoomed window), then reinstall.
 
-
-## 🖼️ Icon attribution
-
-The included cursor icon (`icons/cursor.png`) is licensed under CC BY 4.0. Source: https://icon-icons.com/icon/cursor-the-application/2337
-
 ## ✨ Main Features
 
 ### 🎯 Core Functions
@@ -70,6 +65,7 @@ If you want to use the bundled icons, copy the files from the `icons/` folder in
 ## 📄 License
 
 This project is licensed under the Apache License 2.0 — see the [LICENSE](LICENSE) file for details.
+The included cursor icon (`icons/cursor.png`) is licensed under CC BY 4.0. Source: https://icon-icons.com/icon/cursor-the-application/2337
 
 ## 🤝 Contributing
 
@@ -103,10 +99,6 @@ If you encounter problems:
 ### ⚠️ 已知问题
 
 - **请在务必退出obs前关闭自动放大。**因为在放大（zoom-in）状态下退出 OBS 可能导致插件和场景损坏。若发生此问题，请卸载脚本，删除插件添加的源及插件修改的源（例如被放大的窗口），然后重新安装。
-
-### 🖼️ 图标版权
-
-项目中包含的光标图标（`icons/cursor.png`）采用 CC BY 4.0 协议，出处： https://icon-icons.com/icon/cursor-the-application/2337
 
 ### ✨ 主要特性
 
@@ -154,6 +146,7 @@ If you encounter problems:
 ### 📄 许可证
 
 本项目代码采用 Apache License 2.0，详见 [LICENSE](LICENSE)
+项目中包含的光标图标（`icons/cursor.png`）采用 CC BY 4.0 协议，出处： https://icon-icons.com/icon/cursor-the-application/2337
 
 ## 🤝 贡献
 
